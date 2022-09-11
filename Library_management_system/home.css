@@ -1,0 +1,83 @@
+body{
+	margin: 0px
+}
+
+.header{
+	margin-top: 10px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 150px;
+	width: 100%;
+	background-color: #09095d;
+	z-index: 100;
+}
+
+.div-logo{
+	text-align: center;
+	margin: 10px;
+	float: left;
+}
+
+.logo-text{
+	display: block;
+	font-family: "Helvetica Neue";
+	font-weight: bold;
+	color: white;
+}
+
+.headline{
+	float: center;
+	height: 100%
+	font-size: 25px;
+	display: inline-block;
+
+}
+
+.navi{
+	float: right;
+	height: 100%;
+}
+
+.navi a{
+	color: white;
+	padding-right: 10px;
+	padding-top: 12%;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Helvetica Neue";
+	display: inline-block;
+}
+
+
+.site-content{
+	position: absolute;
+	top: 78px;
+	width: 100%;
+}
+
+.image-content{
+	height: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+.quote{
+	color: #bf10a9;
+	font-family: "Helvetica Neue";
+	position: relative;
+	top: 80%;
+}
+
+#first{
+	margin-top: 20px;
+	height: 350px;
+	width: 48%;
+}
+
+#second{
+	margin-top: 20px;
+	height: 350px;
+	width: 48%;
+	margin-left: 2%;
+}
